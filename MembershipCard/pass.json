@@ -1,0 +1,25 @@
+{
+    "formatVersion":1,
+    "passTypeIdentifier":"pass.com.meetClass.membershipCard",
+    "serialNumber":"54afe978584e3",
+    "teamIdentifier":"2L2BA2747M",
+    "authenticationToken":"bc83dde3304d766d5b1aea631827f84c",
+    "barcode":{"message":"userName Zeus","altText":"会员详情见背面","format":"PKBarcodeFormatQR","messageEncoding":"iso-8859-1"},
+    "locations":[
+                 {"longitude":-122.3748889,"latitude":37.6189722},{"longitude":-122.03118,"latitude":37.33182}],
+    "organizationName":"YuanSport",
+    "logoText":"会员卡",
+    "description":"membership card",
+    "foregroundColor":"rgb(2,2,4)",
+    "backgroundColor":"rgb(244,244,254)",
+    "storeCard":{
+        "headerFields":[{"key":"date","label":"余额","value":"￥8888.00"}],
+        "secondaryFields":[{"key":"more","label":"VIP会员","value":"Zeus"}],
+        "backFields":[
+                      {"key":"records","label":"消费记录(最近10次)","value":" 9/23    ￥107.00     无糖冰美式\n 9/21    ￥58.00      黑魔卡\n 8/25    ￥44.00      魔卡\n 8/23    ￥107.00     无糖冰美式\n 8/18    ￥107.00     无糖冰美式\n 7/29    ￥58.00      黑魔卡\n 7/26    ￥44.00      魔卡\n 7/13    ￥58.00      黑魔卡\n 7/11    ￥44.00      魔卡\n 6/20    ￥44.00      魔卡\n"},
+                      {"key":"phone","label":"联系方式","value":"4008-888-88"},
+                      {"key":"terms","label":"会员规则","value":"（1）本电子票涉及多个环节，均为人工操作，用户下单后，1-2个工作日内下发，电子票并不一定能立即收到，建议千品用户提前1天购买，如急需使用，请谨慎下单； \n（2）此劵为电子劵，属特殊产品，一经购买不支持退款（敬请谅解）； \n（3）特别注意：下单时请将您需要接收电子票的手机号码，填入收件人信息，如号码填写错误，损失自负；购买成功后，商家于周一至周五每天中午11点和下午17点发2维码/短信到您手机（周六至周日当天晚上发1次），请用户提前购买，凭此信息前往影院前台兑换即可； \n（4）订购成功后，（您在购买下单后的当天，给您发送电子券，系统会自动识别；如果您的手机能接收二维码，那收到的就是彩信，不能接收二维码的话，系统将会自动转成短信发送给您），短信为16位数，如：1028**********； 每个手机号码只可购买6张，如需购买6张以上的请在订单附言填写不同的手机号码，并注明张数（例如团购10张，1350755****号码4张，1860755****号码6张）；\n（5）电子票有效期至2016年2月30日，不与其他优惠券同时使用"},
+                      {"key":"support","label":"技术支持","value":"http://www.cmjstudio.com\n\n                　　　　　　　　　　　　　　　　　　　　　　　　　　　　\n                　　　　　　　　　　　　　　　　　　　　　　　　　　　　\n                　　　　　　　　　　　　　　　　　　　　　　　　　　"}]
+    },
+    "labelColor":"rgb(87,88,93)"
+}

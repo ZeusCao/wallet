@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="5e7-MN-gdZ">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="mWL-Tv-JCB">
+            <objects>
+                <navigationController id="5e7-MN-gdZ" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="Sv8-kG-R5H">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="cOq-0w-QEa" kind="relationship" relationship="rootViewController" id="e1H-QF-tfn"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="g6a-DK-jot" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-183" y="75"/>
+        </scene>
+        <!--PassBook-->
+        <scene sceneID="E8A-EV-9fJ">
+            <objects>
+                <viewController title="PassBook" id="cOq-0w-QEa" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Gxo-DS-pOF"/>
+                        <viewControllerLayoutGuide type="bottom" id="jQL-4k-xF3"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gI0-Pr-gZi">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="PassBook" id="GhX-ct-APE">
+                        <barButtonItem key="rightBarButtonItem" systemItem="add" id="boY-cu-sYu">
+                            <connections>
+                                <action selector="addPassClick:" destination="cOq-0w-QEa" id="3h1-Jx-F3R"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Z4k-7p-LLH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="387" y="-62"/>
+        </scene>
+    </scenes>
+</document>
